@@ -10,6 +10,7 @@ server_socket.listen(5) # become a server socket, maximum 5 connections
 while True:
     connection, address = server_socket.accept()
     try:
+
         while True:
             data = connection.recv(64)
             print("receive: " + data)

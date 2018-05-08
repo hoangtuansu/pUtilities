@@ -9,6 +9,7 @@ client_socket.connect(server_address)
 count = 1
 
 try:
+
     while count < 10:
         t1 = dt.datetime.now()
         client_socket.send('hello')
