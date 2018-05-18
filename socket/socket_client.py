@@ -1,5 +1,6 @@
 import socket
 
-clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-clientsocket.connect(('localhost', 8089))
-clientsocket.send('hello')
+if __name__ == '__main__':
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client_socket.connect(('localhost', 8089))
+    client_socket.send('hello')

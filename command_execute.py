@@ -6,4 +6,5 @@ def run(cmd):
 	out, err = process.communicate()
 	return out.decode()
 
-print run('dir')
+if __name__ == '__main__':
+	print run('dir')
