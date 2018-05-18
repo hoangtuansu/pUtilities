@@ -7,10 +7,9 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_address = (sys.argv[1], 8089)
 client_socket.connect(server_address)
 count = 1
-
+print("Client is running")
 try:
-
-    while count < 10:
+    while count < 100:
         t1 = dt.datetime.now()
         client_socket.send('hello')
         data = client_socket.recv(1024)
