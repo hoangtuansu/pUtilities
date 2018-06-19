@@ -17,6 +17,10 @@ if __name__ == '__main__':
                     connection.send("got: " + data)
                 else:
                     break
+        except KeyboardInterrupt:
+            print "Stop server"
+            connection.close()
+            raise
         finally:
             connection.close()
 
