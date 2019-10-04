@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2bd35034-0891-4f1a-ac7a-1ef857e5731e" name="kdemo" url="http://172.16.0.55/kdemo">
+        <fileTransfer host="172.16.0.55" port="22" rootFolder="/home/system" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="751b1984-b873-426e-af47-19511ec3ebd7" name="vosq" url="http://172.16.0.55">
+        <fileTransfer host="172.16.0.55" port="22" rootFolder="/home/system" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

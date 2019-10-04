@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../kdemo/.idea/kdemo.iml" filepath="$PROJECT_DIR$/../kdemo/.idea/kdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../markovapprox/.idea/markovapprox.iml" filepath="$PROJECT_DIR$/../markovapprox/.idea/markovapprox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pUtilities.iml" filepath="$PROJECT_DIR$/.idea/pUtilities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vosq/.idea/vosq.iml" filepath="$PROJECT_DIR$/../vosq/.idea/vosq.iml" />
+    </modules>
+  </component>
+</project>
